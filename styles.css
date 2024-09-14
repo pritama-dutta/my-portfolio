@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header .profile {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+header .profile img {
+    width: 150px; /* Adjusted size */
+    height: 150px; /* Adjusted size */
+    border-radius: 50%; /* Circular crop */
+    object-fit: cover; /* Ensures image fits within the frame */
+    border: 3px solid #fff; /* Optional: border around the profile picture */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a shadow for aesthetics */
+}
+
+header h1 {
+    margin: 0;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav {
+    background: #444;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 10px;
+    background: #fff;
+    border-radius: 5px;
+}
+
+#skills ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+#skills li {
+    display: inline-block;
+    margin: 5px 15px;
+    padding: 10px;
+    background: #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#skills h2 {
+    text-align: center;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.contact-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.contact-links li {
+    margin: 10px 0;
+}
+
+.contact-links a {
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.contact-links a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
